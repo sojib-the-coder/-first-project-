@@ -1,0 +1,117 @@
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+  /* login page stert */
+
+.login-page{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg");
+    background-size: 100% 100%;
+}
+.login-page .login-from{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border: 3px solid #ccc;
+     width: 330px;
+     padding: 20px;
+     border-radius: 30px;
+     background-color: rgba(255, 255, 255, 10%);
+     backdrop-filter: blur(10px);
+}
+.login-page .login-from .login-title{
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.login-page .login-from .email-login{
+    margin-bottom: 20px;
+    padding-bottom: 7px;
+}
+.login-page .login-from .password-login{
+    margin-bottom: 12px;
+}
+.login-page .login-from .login-remember{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.login-page .login-from .submit-login{
+    margin-bottom: 20px;
+}
+.login-page .login-from .or-account{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-page .login-from .login-btn{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.login-page .login-from .login-btn a{
+    font-size: 19px;
+    color: black;
+    background-color: aliceblue;
+    padding: 4px;
+    text-align: center;
+    border-radius: 15px;
+}
+.login-page .login-from .dont-heve-account{
+    color: aliceblue;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+.login-page .login-from .dont-heve-account a{
+    color: aliceblue;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
+/* input padding width */
+
+.login-page .login-from .email-login input,
+.login-page .login-from .password-login input{
+    width: 100%;
+    padding: 11px;
+    border-radius: 10px;
+    outline: 0;
+    border: 1px solid aliceblue;
+    font-size: 14px;
+}
+.login-page .login-from .submit-login input{
+    width: 100%;
+    padding: 12px;
+    border: #ccc 1px solid ;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* hover css style  */
+.login-page .login-from .dont-heve-account a:hover{
+      color: hotpink;
+      text-decoration: 1px underline wavy hotpink;
+}
+
+.login-page .login-from .submit-login input:hover{
+      background-color: #252525;
+      box-shadow: 3px 3px 8px black;
+}
